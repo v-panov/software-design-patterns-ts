@@ -1,0 +1,48 @@
+# Software Design Patterns in TypeScript
+
+Implementation of common software design patterns using TypeScript.
+
+## Patterns Implemented
+
+### Creational Patterns
+
+- **Singleton** - Ensures a class has only one instance and provides a global point of access to it
+
+## Getting Started
+
+### Requirements
+
+- [Node.js](https://nodejs.org/) (v10 or higher recommended)
+- [npm](https://docs.npmjs.com/) (v6 or higher recommended)
+
+### Installation
+
+```bash
+# Install dependencies
+npm install
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+### Testing
+
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Run tests with coverage report
+npm run test:coverage
+```
+
+## Technology Stack
+
+- [TypeScript](https://www.typescriptlang.org) - Strongly typed programming language
+- [Jest](https://jestjs.io) - Testing framework
+- [ts-jest](https://kulshekhar.github.io/ts-jest/) - TypeScript preprocessor for Jest

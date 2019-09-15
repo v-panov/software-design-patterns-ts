@@ -1,0 +1,29 @@
+{
+  "name": "software-design-patterns-ts",
+  "version": "1.0.0",
+  "description": "Implementation of common software design patterns using TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-panov/software-design-patterns-ts.git"
+  },
+  "keywords": [],
+  "author": "v-panov",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/v-panov/software-design-patterns-ts/issues"
+  },
+  "homepage": "https://github.com/v-panov/software-design-patterns-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.2"
+  }
+}
