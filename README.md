@@ -7,6 +7,11 @@ Implementation of common software design patterns using TypeScript.
 ### Creational Patterns
 
 - **Singleton** - Ensures a class has only one instance and provides a global point of access to it
+- **Factory Method** - Defines an interface for creating an object, but lets subclasses decide which class to instantiate
+- **Abstract Factory** - Provides an interface for creating families of related or dependent objects
+- **Factory** - Creates objects without specifying the exact class to create
+- **Builder** - Separates object construction from its representation
+- **Prototype** - Creates new objects by cloning existing ones, avoiding the overhead of creating objects from scratch
 
 ## Getting Started
 
