@@ -1,0 +1,23 @@
+export {
+  VideoFile,
+  CodecFactory,
+  Codec,
+  MPEG4CompressionCodec,
+  OggCompressionCodec,
+  CodecNotSupportedError,
+  BitrateReader,
+  AudioMixer,
+  CompressionCodec,
+  MetadataReader,
+  MetadataWriter,
+  VideoConversionFacade,
+  CPU,
+  Memory,
+  HardDrive,
+  Computer,
+  Projector,
+  SoundSystem,
+  StreamingPlayer,
+  Lights,
+  HomeTheaterFacade
+} from './Facade';
