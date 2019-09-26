@@ -13,6 +13,16 @@ Implementation of common software design patterns using TypeScript.
 - **Builder** - Separates object construction from its representation
 - **Prototype** - Creates new objects by cloning existing ones, avoiding the overhead of creating objects from scratch
 
+### Structural Patterns
+
+- **Adapter** - Converts the interface of a class into another interface clients expect, allowing classes to work together that couldn't otherwise
+- **Bridge** - Decouples an abstraction from its implementation so that the two can vary independently
+- **Composite** - Composes objects into tree structures to represent part-whole hierarchies, letting clients treat individual objects and compositions uniformly
+- **Decorator** - Attaches additional responsibilities to objects dynamically without altering their structure
+- **Facade** - Provides a simplified interface to a complex subsystem, making it easier to use
+- **Flyweight** - Uses sharing to support large numbers of similar objects efficiently by minimizing memory usage
+- **Proxy** - Provides a surrogate or placeholder for another object to control access to it
+
 ## Getting Started
 
 ### Requirements
