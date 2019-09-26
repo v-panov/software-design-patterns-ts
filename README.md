@@ -23,6 +23,10 @@ Implementation of common software design patterns using TypeScript.
 - **Flyweight** - Uses sharing to support large numbers of similar objects efficiently by minimizing memory usage
 - **Proxy** - Provides a surrogate or placeholder for another object to control access to it
 
+### Behavioral Patterns
+
+- **Mediator** - Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly
+
 ## Getting Started
 
 ### Requirements
