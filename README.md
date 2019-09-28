@@ -27,6 +27,7 @@ Implementation of common software design patterns using TypeScript.
 
 - **Command** - Encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations
 - **Mediator** - Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly
+- **State** - Allows an object to alter its behavior when its internal state changes. The object will appear to change its class
 - **Strategy** - Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently of clients that use it
 
 ## Getting Started
