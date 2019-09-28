@@ -29,6 +29,7 @@ Implementation of common software design patterns using TypeScript.
 - **Mediator** - Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly
 - **State** - Allows an object to alter its behavior when its internal state changes. The object will appear to change its class
 - **Strategy** - Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently of clients that use it
+- **Visitor** - Represents an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates
 
 ## Getting Started
 
