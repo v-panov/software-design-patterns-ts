@@ -27,6 +27,7 @@ Implementation of common software design patterns using TypeScript.
 
 - **Chain of Responsibility** - Avoids coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chains the receiving objects and passes the request along the chain until an object handles it
 - **Command** - Encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations
+- **Iterator** - Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation
 - **Mediator** - Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly
 - **Observer** - Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically
 - **State** - Allows an object to alter its behavior when its internal state changes. The object will appear to change its class
