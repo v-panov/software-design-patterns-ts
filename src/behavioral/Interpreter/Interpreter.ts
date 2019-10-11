@@ -146,7 +146,7 @@ export class DivideExpression implements Expression {
 export class ExpressionParser {
   private tokenize(expression: string): string[] {
     // A simple tokenizer that separates tokens by spaces
-    return expression.replace(/[\(\)\+\-\*\/]/g, ' $& ').trim().split(/\s+/);
+    return expression.replace(/[()+\-*\/]/g, ' $& ').trim().split(/\s+/);
   }
 
   public parse(expression: string): Expression {
